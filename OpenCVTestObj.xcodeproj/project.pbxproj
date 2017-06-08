@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CDB651191EE98FAE00370BAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB651181EE98FAE00370BAA /* main.m */; };
+		CDB6511C1EE98FAE00370BAA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB6511B1EE98FAE00370BAA /* AppDelegate.m */; };
+		CDB6511F1EE98FAE00370BAA /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = CDB6511E1EE98FAE00370BAA /* ViewController.mm */; };
+		CDB651221EE98FAE00370BAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDB651201EE98FAE00370BAA /* Main.storyboard */; };
+		CDB651241EE98FAE00370BAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDB651231EE98FAE00370BAA /* Assets.xcassets */; };
+		CDB651271EE98FAE00370BAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDB651251EE98FAE00370BAA /* LaunchScreen.storyboard */; };
+		CDB6512F1EE9999400370BAA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDB6512E1EE9999400370BAA /* QuartzCore.framework */; };
+		CDB651311EE9999D00370BAA /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDB651301EE9999D00370BAA /* CoreImage.framework */; };
+		CDB651331EE999A400370BAA /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDB651321EE999A400370BAA /* CoreMedia.framework */; };
+		CDB651351EE999AB00370BAA /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDB651341EE999AB00370BAA /* CoreVideo.framework */; };
+		CDB651371EE999B200370BAA /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDB651361EE999B200370BAA /* Accelerate.framework */; };
+		CDB651391EE999B800370BAA /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDB651381EE999B800370BAA /* AssetsLibrary.framework */; };
+		CDB6513B1EE999C000370BAA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDB6513A1EE999C000370BAA /* AVFoundation.framework */; };
+		CDB6513D1EE999CC00370BAA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDB6513C1EE999CC00370BAA /* CoreGraphics.framework */; };
+		CDB6513F1EE999D600370BAA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDB6513E1EE999D600370BAA /* UIKit.framework */; };
+		CDB651411EE999DE00370BAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDB651401EE999DE00370BAA /* Foundation.framework */; };
+		CDB651461EE9B8BC00370BAA /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDB651451EE9B8BC00370BAA /* Social.framework */; };
+		CDB651481EE9BF7500370BAA /* SocialController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB651471EE9BF7500370BAA /* SocialController.m */; };
+		CDB6514C1EE9C14B00370BAA /* AlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB6514B1EE9C14B00370BAA /* AlertController.m */; };
+		CDB6514F1EE9CA0E00370BAA /* OpenCVFilters.mm in Sources */ = {isa = PBXBuildFile; fileRef = CDB6514E1EE9CA0E00370BAA /* OpenCVFilters.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		321700F1A3DC0A041406189D /* Pods-OpenCVTestObj.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenCVTestObj.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OpenCVTestObj/Pods-OpenCVTestObj.debug.xcconfig"; sourceTree = "<group>"; };
+		4C2A11C573873BCF7B092D92 /* Pods-OpenCVTestObj.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenCVTestObj.release.xcconfig"; path = "Pods/Target Support Files/Pods-OpenCVTestObj/Pods-OpenCVTestObj.release.xcconfig"; sourceTree = "<group>"; };
+		6A39EE04168EFF09E0D4EA52 /* libPods-OpenCVTestObj.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OpenCVTestObj.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDB651141EE98FAE00370BAA /* OpenCVTestObj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenCVTestObj.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDB651181EE98FAE00370BAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CDB6511A1EE98FAE00370BAA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CDB6511B1EE98FAE00370BAA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CDB6511D1EE98FAE00370BAA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CDB6511E1EE98FAE00370BAA /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		CDB651211EE98FAE00370BAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDB651231EE98FAE00370BAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDB651261EE98FAE00370BAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CDB651281EE98FAE00370BAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDB6512E1EE9999400370BAA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CDB651301EE9999D00370BAA /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		CDB651321EE999A400370BAA /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		CDB651341EE999AB00370BAA /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		CDB651361EE999B200370BAA /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		CDB651381EE999B800370BAA /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		CDB6513A1EE999C000370BAA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		CDB6513C1EE999CC00370BAA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CDB6513E1EE999D600370BAA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CDB651401EE999DE00370BAA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CDB651451EE9B8BC00370BAA /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		CDB651471EE9BF7500370BAA /* SocialController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialController.m; sourceTree = "<group>"; };
+		CDB651491EE9BFA400370BAA /* SocialController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SocialController.h; sourceTree = "<group>"; };
+		CDB6514A1EE9C14B00370BAA /* AlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertController.h; sourceTree = "<group>"; };
+		CDB6514B1EE9C14B00370BAA /* AlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertController.m; sourceTree = "<group>"; };
+		CDB6514D1EE9CA0E00370BAA /* OpenCVFilters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenCVFilters.h; sourceTree = "<group>"; };
+		CDB6514E1EE9CA0E00370BAA /* OpenCVFilters.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenCVFilters.mm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDB651111EE98FAE00370BAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDB651461EE9B8BC00370BAA /* Social.framework in Frameworks */,
+				CDB651411EE999DE00370BAA /* Foundation.framework in Frameworks */,
+				CDB6513F1EE999D600370BAA /* UIKit.framework in Frameworks */,
+				CDB6513D1EE999CC00370BAA /* CoreGraphics.framework in Frameworks */,
+				CDB6513B1EE999C000370BAA /* AVFoundation.framework in Frameworks */,
+				CDB651391EE999B800370BAA /* AssetsLibrary.framework in Frameworks */,
+				CDB651371EE999B200370BAA /* Accelerate.framework in Frameworks */,
+				CDB651351EE999AB00370BAA /* CoreVideo.framework in Frameworks */,
+				CDB651331EE999A400370BAA /* CoreMedia.framework in Frameworks */,
+				CDB651311EE9999D00370BAA /* CoreImage.framework in Frameworks */,
+				CDB6512F1EE9999400370BAA /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		752DF09F1F6988ECEFCA44F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDB651451EE9B8BC00370BAA /* Social.framework */,
+				CDB651401EE999DE00370BAA /* Foundation.framework */,
+				CDB6513E1EE999D600370BAA /* UIKit.framework */,
+				CDB6513C1EE999CC00370BAA /* CoreGraphics.framework */,
+				CDB6513A1EE999C000370BAA /* AVFoundation.framework */,
+				CDB651381EE999B800370BAA /* AssetsLibrary.framework */,
+				CDB651361EE999B200370BAA /* Accelerate.framework */,
+				CDB651341EE999AB00370BAA /* CoreVideo.framework */,
+				CDB651321EE999A400370BAA /* CoreMedia.framework */,
+				CDB651301EE9999D00370BAA /* CoreImage.framework */,
+				CDB6512E1EE9999400370BAA /* QuartzCore.framework */,
+				6A39EE04168EFF09E0D4EA52 /* libPods-OpenCVTestObj.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF0748499B4A09091FB7C408 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				321700F1A3DC0A041406189D /* Pods-OpenCVTestObj.debug.xcconfig */,
+				4C2A11C573873BCF7B092D92 /* Pods-OpenCVTestObj.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CDB6510B1EE98FAE00370BAA = {
+			isa = PBXGroup;
+			children = (
+				CDB651161EE98FAE00370BAA /* OpenCVTestObj */,
+				CDB651151EE98FAE00370BAA /* Products */,
+				AF0748499B4A09091FB7C408 /* Pods */,
+				752DF09F1F6988ECEFCA44F1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CDB651151EE98FAE00370BAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDB651141EE98FAE00370BAA /* OpenCVTestObj.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDB651161EE98FAE00370BAA /* OpenCVTestObj */ = {
+			isa = PBXGroup;
+			children = (
+				CDB6511A1EE98FAE00370BAA /* AppDelegate.h */,
+				CDB6511B1EE98FAE00370BAA /* AppDelegate.m */,
+				CDB6511D1EE98FAE00370BAA /* ViewController.h */,
+				CDB6511E1EE98FAE00370BAA /* ViewController.mm */,
+				CDB651491EE9BFA400370BAA /* SocialController.h */,
+				CDB651471EE9BF7500370BAA /* SocialController.m */,
+				CDB6514A1EE9C14B00370BAA /* AlertController.h */,
+				CDB6514B1EE9C14B00370BAA /* AlertController.m */,
+				CDB6514D1EE9CA0E00370BAA /* OpenCVFilters.h */,
+				CDB6514E1EE9CA0E00370BAA /* OpenCVFilters.mm */,
+				CDB651201EE98FAE00370BAA /* Main.storyboard */,
+				CDB651231EE98FAE00370BAA /* Assets.xcassets */,
+				CDB651251EE98FAE00370BAA /* LaunchScreen.storyboard */,
+				CDB651281EE98FAE00370BAA /* Info.plist */,
+				CDB651171EE98FAE00370BAA /* Supporting Files */,
+			);
+			path = OpenCVTestObj;
+			sourceTree = "<group>";
+		};
+		CDB651171EE98FAE00370BAA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDB651181EE98FAE00370BAA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDB651131EE98FAE00370BAA /* OpenCVTestObj */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDB6512B1EE98FAE00370BAA /* Build configuration list for PBXNativeTarget "OpenCVTestObj" */;
+			buildPhases = (
+				0ACE2B7C7A7FF3FCFCA38AAE /* [CP] Check Pods Manifest.lock */,
+				CDB651101EE98FAE00370BAA /* Sources */,
+				CDB651111EE98FAE00370BAA /* Frameworks */,
+				CDB651121EE98FAE00370BAA /* Resources */,
+				0A0955C900175DE3F3755271 /* [CP] Embed Pods Frameworks */,
+				7ECDB6CF6313491531D853EE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenCVTestObj;
+			productName = OpenCVTestObj;
+			productReference = CDB651141EE98FAE00370BAA /* OpenCVTestObj.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDB6510C1EE98FAE00370BAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Fukumoto;
+				TargetAttributes = {
+					CDB651131EE98FAE00370BAA = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = CNBP7P7BGB;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CDB6510F1EE98FAE00370BAA /* Build configuration list for PBXProject "OpenCVTestObj" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDB6510B1EE98FAE00370BAA;
+			productRefGroup = CDB651151EE98FAE00370BAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDB651131EE98FAE00370BAA /* OpenCVTestObj */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDB651121EE98FAE00370BAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDB651271EE98FAE00370BAA /* LaunchScreen.storyboard in Resources */,
+				CDB651241EE98FAE00370BAA /* Assets.xcassets in Resources */,
+				CDB651221EE98FAE00370BAA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A0955C900175DE3F3755271 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OpenCVTestObj/Pods-OpenCVTestObj-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0ACE2B7C7A7FF3FCFCA38AAE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7ECDB6CF6313491531D853EE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OpenCVTestObj/Pods-OpenCVTestObj-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDB651101EE98FAE00370BAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDB6514F1EE9CA0E00370BAA /* OpenCVFilters.mm in Sources */,
+				CDB651481EE9BF7500370BAA /* SocialController.m in Sources */,
+				CDB6511F1EE98FAE00370BAA /* ViewController.mm in Sources */,
+				CDB6511C1EE98FAE00370BAA /* AppDelegate.m in Sources */,
+				CDB651191EE98FAE00370BAA /* main.m in Sources */,
+				CDB6514C1EE9C14B00370BAA /* AlertController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CDB651201EE98FAE00370BAA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDB651211EE98FAE00370BAA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CDB651251EE98FAE00370BAA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDB651261EE98FAE00370BAA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDB651291EE98FAE00370BAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDB6512A1EE98FAE00370BAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDB6512C1EE98FAE00370BAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 321700F1A3DC0A041406189D /* Pods-OpenCVTestObj.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CNBP7P7BGB;
+				INFOPLIST_FILE = OpenCVTestObj/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fukumoto.OpenCVTestObj;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CDB6512D1EE98FAE00370BAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C2A11C573873BCF7B092D92 /* Pods-OpenCVTestObj.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CNBP7P7BGB;
+				INFOPLIST_FILE = OpenCVTestObj/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fukumoto.OpenCVTestObj;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDB6510F1EE98FAE00370BAA /* Build configuration list for PBXProject "OpenCVTestObj" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDB651291EE98FAE00370BAA /* Debug */,
+				CDB6512A1EE98FAE00370BAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDB6512B1EE98FAE00370BAA /* Build configuration list for PBXNativeTarget "OpenCVTestObj" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDB6512C1EE98FAE00370BAA /* Debug */,
+				CDB6512D1EE98FAE00370BAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDB6510C1EE98FAE00370BAA /* Project object */;
+}

@@ -1,0 +1,14 @@
+# Xcode (from gitignore.io)
+/build
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+*.xcworkspace
+*.framework
+*.xcworkspace
+
+# CocoaPod
+Pods/*
+
+.DS_Store
