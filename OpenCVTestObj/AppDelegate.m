@@ -1,11 +1,3 @@
-//
-//  AppDelegate.m
-//  OpenCVTestObj
-//
-//  Created by 福本 on 2017/06/08.
-//  Copyright © 2017年 Fukumoto. All rights reserved.
-//
-
 #import "AppDelegate.h"
 
 @interface AppDelegate ()

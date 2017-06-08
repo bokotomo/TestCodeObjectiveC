@@ -1,11 +1,3 @@
-//
-//  AlertController.m
-//  OpenCVTestObj
-//
-//  Created by 福本 on 2017/06/09.
-//  Copyright © 2017年 Fukumoto. All rights reserved.
-//
-
 #import "AlertController.h"
 
 @implementation AlertController

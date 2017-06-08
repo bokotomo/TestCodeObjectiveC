@@ -8,6 +8,7 @@
 
 @interface OpenCVFilters : NSObject
 
+- (cv::Mat)cvMatChangeGrayImage:(cv::Mat)srcMat;
 - (UIImage *)UIImageFromCVMat:(cv::Mat)cvMat;
 - (cv::Mat)cvMatFromUIImage:(UIImage *)image;
 @end

@@ -2,6 +2,13 @@
 
 @implementation OpenCVFilters
 
+- (cv::Mat)cvMatChangeGrayImage:(cv::Mat)srcMat
+{
+  cv::Mat greyMat;
+  cv::cvtColor(srcMat, greyMat, CV_BGR2GRAY);
+
+  return greyMat;
+}
 
 - (cv::Mat)cvMatFromUIImage:(UIImage *)image
 {

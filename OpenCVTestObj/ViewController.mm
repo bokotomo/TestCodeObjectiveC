@@ -2,10 +2,9 @@
 
 //クラスの宣言部分
 @interface ViewController (){
-  /// メンバ変数の定義
+  /// メンバ変数の定義する場所
 }
-/// メソッドの定義
-
+/// メソッドの定義する場所
 @end
 
 //クラスの実行部分
@@ -19,30 +18,29 @@
   AlertController *AlertControllerInstance = [AlertController alloc];
   [AlertControllerInstance showAlert: @"タイトル": @"テキスト": @"完了"];
   
-  //viewの設定する自作メソッド
+  //viewのを描画する自作メソッド
   [self setViews];
-  
 }
 
-//viewの設定
+//viewの描画
 -(void)setViews{
   
   //画像の作成
   OpenCVFilters *OpenCVFiltersInstance = [OpenCVFilters alloc];
   UIImage *srcImage = [UIImage imageNamed:@"tes"];
+  //UIIMageをcv::Matに変換
   cv::Mat srcMat = [OpenCVFiltersInstance cvMatFromUIImage:srcImage];
-  cv::Mat greyMat;
-  cv::cvtColor(srcMat, greyMat, CV_BGR2GRAY);
-  
-  //変換したの画像
+  //白黒に変換
+  cv::Mat greyMat = [OpenCVFiltersInstance cvMatChangeGrayImage:srcMat];
+  //cv::MatをUIIMageに変換
   UIImage *confImage = [OpenCVFiltersInstance UIImageFromCVMat:greyMat];
   
-  // UIImageViewの作成
+  // UIImageView1の作成
   UIImageView *iv = [[UIImageView alloc] initWithImage:srcImage];
   iv.frame = CGRectMake(0, 0, self.view.frame.size.width/2, self.view.frame.size.height/2);
   [self.view addSubview:iv];
   
-  // UIImageViewの作成
+  // UIImageView2の作成
   UIImageView *iv2 = [[UIImageView alloc] initWithImage:confImage];
   iv2.frame = CGRectMake(self.view.frame.size.width/2, 0, self.view.frame.size.width/2, self.view.frame.size.height/2);
   [self.view addSubview:iv2];
